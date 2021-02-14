@@ -161,12 +161,14 @@ cd wsl-setup
 * [VMware Workstation](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
 * [Process Hacker](https://processhacker.sourceforge.io/downloads.php) - 프로세스 관리
 * [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) - 시작 프로그램 관리
+* [Notion](https://www.notion.so/desktop)
 
 ### Messenger
 
 * [KakaoTalk](https://www.kakaocorp.com/service/KakaoTalk?lang=en)
 * [Telegram](https://desktop.telegram.org/)
 * [Discord](https://discord.com/)
+* [Slack](https://slack.com/intl/en-kr/downloads/windows)
 
 ### Game
 
@@ -177,6 +179,10 @@ cd wsl-setup
 
 * [Visual Studio](https://visualstudio.microsoft.com/)
 * [Visual Studio Code](https://code.visualstudio.com/#alt-downloads)
+
+### Reversing
+
+* [Ghidra](https://ghidra-sre.org/)
 
 ## Program Settings
 
@@ -212,10 +218,11 @@ cd wsl-setup
 ```json
 {
   "debug.javascript.codelens.npmScripts": "never",
-  "editor.fontFamily": "Iosevka, D2Coding, monospace",
-  "editor.fontSize": 18,
+  "editor.fontFamily": "Iosevka, monospace",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "500",
   "editor.tabSize": 2,
-  "terminal.integrated.fontFamily": "'Iosevka Fixed', D2Coding, monospace",
+  "terminal.integrated.fontFamily": "'Iosevka Fixed', monospace",
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
   "workbench.iconTheme": "vscode-icons",
@@ -236,19 +243,20 @@ cd wsl-setup
 ```json
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+  "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
   "copyOnSelect": false,
   "copyFormatting": false,
   "multiLinePasteWarning": false,
   "profiles": {
     "defaults": {
       "fontFace": "Iosevka Fixed",
-      "fontSize": 14
+      "fontSize": 14,
+      "fontWeight": "medium"
     },
     "list": [
       {
-        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-        "name": "Ubuntu",
+        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+        "name": "Ubuntu 20.04",
         "source": "Windows.Terminal.Wsl",
         "hidden": false,
         "startingDirectory": "//wsl$/Ubuntu/home/retn0"
