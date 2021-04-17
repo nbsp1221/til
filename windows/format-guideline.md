@@ -259,7 +259,7 @@ cd wsl-setup
         "name": "Ubuntu 20.04",
         "source": "Windows.Terminal.Wsl",
         "hidden": false,
-        "startingDirectory": "//wsl$/Ubuntu/home/retn0"
+        "startingDirectory": "//wsl$/Ubuntu-20.04/home/retn0"
       },
       {
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
