@@ -152,6 +152,7 @@ cd wsl-setup
 
 ### Utility
 
+* [Java](https://www.oracle.com/java/technologies/javase-downloads.html)
 * [Bandizip](https://en.bandisoft.com/bandizip/)
 * [Everything](https://www.voidtools.com/) - 빠른 파일 검색
 * [CrystalDiskInfo / CrystalDiskMark](https://crystalmark.info/en/download/) - HDD / SSD 정보 확인 및 속도 측정
